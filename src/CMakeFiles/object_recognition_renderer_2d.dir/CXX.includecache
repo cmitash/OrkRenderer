@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pracsys/chaitanya/pracsys-apc-main-09f8351c5ad5/src/ork_renderer/src/renderer2d.cpp
+iostream
+-
+object_recognition_renderer/renderer2d.h
+-
+opencv2/calib3d/calib3d.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+
+include/object_recognition_renderer/renderer.h
+string
+-
+opencv2/core/core.hpp
+-
+
+include/object_recognition_renderer/renderer2d.h
+string
+-
+renderer.h
+include/object_recognition_renderer/renderer.h
+

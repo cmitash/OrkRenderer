@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -Wno-deprecated    -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/pracsys/chaitanya/pracsys-apc-main-09f8351c5ad5/src/ork_renderer/gtest/src -lpthread -Wl,-rpath,/home/pracsys/chaitanya/pracsys-apc-main-09f8351c5ad5/src/ork_renderer/gtest/src 
